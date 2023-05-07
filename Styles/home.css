@@ -1,0 +1,96 @@
+/* html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #023047;
+  padding: 20px;
+  position: relative;
+  height: 100vh;
+}
+
+.sidebar a {
+  color: white;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #FFB703;
+  letter-spacing: -1px;
+}
+
+.nav-links {
+  margin-top: 50px;
+  font-weight: 800;
+  font-size: 1.7em;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-links a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+.nav-links img {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+
+
+.logout {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.main {
+  width: 40%;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.right-section {
+  width: 40%;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.status-input {
+  display: flex;
+}
+
+.status-input input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.status-input button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.status-input button:hover {
+  background-color: #333;
+} */
