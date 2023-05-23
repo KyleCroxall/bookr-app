@@ -4,7 +4,7 @@
   <link rel="stylesheet" type="text/css" href="../styles/meetings.css">
   <link rel="stylesheet" type="text/css" href="../Styles/index.css">
   <link rel="stylesheet" type="text/css" href="../Styles/template.css">
-
+  <link rel="stylesheet" type="text/css" href="../Styles/centre-cards.css">
 </head>
 <body>
   <div class="container">
@@ -23,13 +23,79 @@
     </div>
     <div class="main">
       <div class="header">Meetings</div>
-      <div class="status-input">
-        <input type="text" placeholder="Update your status...">
-        <button>+</button>
+      
+      <div class="recent-section">
+        <h3>Today you have one meeting</h3>
+        <div class="card">
+          <img src="../Images/People/gregory.png" alt="Person" class="card-image">
+          <div class="card-content">
+            <div class="card-header">Gregory Evans</div>
+            <div class="card-subheader">Feedback For Assignment</div>
+            <div class="card-subheader transparent">.</div>
+          </div>
+          <div class="card-time">14:30</div>
+        </div>
+        <h3>Past meetings</h3>
+        <div class="card">
+          <img src="../Images/People/david.png" alt="Person" class="card-image">
+          <div class="card-content">
+            <div class="card-header">David Wright</div>
+            <div class="card-subheader">Regarding Attendance</div>
+            <div class="card-subheader transparent">.</div>
+          </div>
+          <div class="card-time">18/4</div>
+        </div>
+        <div class="card">
+          <img src="../Images/People/gregory.png" alt="Person" class="card-image">
+          <div class="card-content">
+            <div class="card-header">Gregory Evans</div>
+            <div class="card-subheader">Student Ambassador</div>
+            <div class="card-subheader transparent">.</div>
+          </div>
+          <div class="card-time">2/4</div>
+        </div>
+        <div class="card">
+          <img src="../Images/People/jason.png" alt="Person" class="card-image">
+          <div class="card-content">
+            <div class="card-header">Jason Peterson</div>
+            <div class="card-subheader">Internship Information</div>
+            <div class="card-subheader transparent">.</div>
+          </div>
+          <div class="card-time">12/3</div>
+        </div>
       </div>
     </div>
     <div class="right-section">
       <!-- Content for the right section goes here -->
+
+      <div class="header">Book meeting</div>
+  
+      <div class="form-group">
+        <input type="text" placeholder="Description..">
+      </div>
+      
+      <div class="form-group">
+        <select>
+          <option selected disabled>Select Supervisor</option>
+          <option>David Wright</option>
+          <option>Gregory Evans</option>
+          <option>Jason Peterson</option>
+          <option>Krystyna Thompson</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <input type="date" placeholder="Select Date">
+      </div>
+      
+      <div class="button-container">
+        <button>Book</button>
+      </div>
+      
+      
+      <div class="image-container">
+        <img src="../Images/Graphics/calendar.png" alt="Image">
+      </div>
     </div>
   </div>
 </body>

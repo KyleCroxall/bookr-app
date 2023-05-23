@@ -1,0 +1,90 @@
+.card {
+    background-color: #b9dfff;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  .card-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    margin-right: 30px;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .card-header {
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .card-subheader {
+    color: #888;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  .card-time {
+    margin-left: auto;
+    color: #2287FF;
+    font-weight: 800;
+  }
+  
+  .transparent {
+    color: rgba(0,0,0,0);
+  }
+  
+  .right-section {
+    width: 40%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 5vh;
+  }
+  
+  .profile-name {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .profile-email {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 5vh;
+  }
+  
+  .current-status-header {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .current-status-subheader {
+    text-align: left;
+    margin-bottom: 3vh;
+    color: #555;
+    font-style: italic;
+    font-size: 1.5rem;
+    max-width: 70%
+  }
+  
+  .calendar-image {
+    width: 50%;
+  }
+  
