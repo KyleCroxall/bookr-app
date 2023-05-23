@@ -24,4 +24,7 @@
     align-items: center;
     justify-content: center;
   }
-  
+
+#profile-picture {
+  margin-right: 20px;
+}

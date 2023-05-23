@@ -4,6 +4,8 @@
   <link rel="stylesheet" type="text/css" href="../styles/messages.css">
   <link rel="stylesheet" type="text/css" href="../Styles/index.css">
   <link rel="stylesheet" type="text/css" href="../Styles/template.css">
+  <link rel="stylesheet" type="text/css" href="../Styles/centre-cards.css">
+  <link rel="stylesheet" type="text/css" href="../styles/status.css">
 </head>
 <body>
   <div class="container">
@@ -23,12 +25,77 @@
     <div class="main">
       <div class="header">All Messages</div>
       <div class="status-input">
-        <input type="text" placeholder="Update your status...">
-        <button>+</button>
+        <input id="search-box" type="text" placeholder="Search Messages">
+      </div>
+      <div class="recent-section">
+       
+        <div class="card">
+          <img src="../Images/People/gregory.png" alt="Person" class="card-image">
+          <div class="card-content">
+            <div class="card-header">Gregory Evans</div>
+            <div class="card-subheader">Here's the feedback for...</div>
+            <div class="card-subheader">Lab_10.pdf</div>
+          </div>
+          <div class="card-time">15:10</div>
+        </div>
+        <h3>Past meetings</h3>
+        <div class="card">
+          <img src="../Images/People/jason.png" alt="Person" class="card-image">
+          <div class="card-content">
+            <div class="card-header">Jason Peterson</div>
+            <div class="card-subheader">What would be best for...</div>
+            <div class="card-subheader transparent">.</div>
+          </div>
+          <div class="card-time">14:47</div>
+        </div>
+        <div class="card">
+          <img src="../Images/People/krystyna.png" alt="Person" class="card-image">
+          <div class="card-content">
+            <div class="card-header">Krystyna Thompson</div>
+            <div class="card-subheader">Let's talk about the idea...</div>
+            <div class="card-subheader transparent">.</div>
+          </div>
+          <div class="card-time">11:12</div>
+        </div>
+        <div class="card">
+          <img src="../Images/People/jason.png" alt="Person" class="card-image">
+          <div class="card-content">
+            <div class="card-header">David Wright</div>
+            <div class="card-subheader">I've sent you todays pres...</div>
+            <div class="card-subheader">Presentation.zip</div>
+          </div>
+          <div class="card-time">09:53</div>
+        </div>
       </div>
     </div>
     <div class="right-section">
-      <!-- Content for the right section goes here -->
+
+      <div class="large-div">
+        <div class="upper-section">
+          <img id="profile-picture" src="../Images/People/jason.png" class="profile-image">
+          <div class="profile-info">
+            <div class="name">Jason Peterson</div>
+            <div class="timestamp">14:47</div>
+          </div>
+        </div>
+        <div class="text-block">
+          <p>
+            When would be best for us to meet to discuss the questions regarding your proposal for your final year project? 
+            <br><br>
+            I am busy for the rest of this week but I’m free most afternoons next week if you’re available then.
+          </p>
+        </div>
+        <!-- <div class="status">
+          <img src="../Images/Icons/double-tick.png" class="status-image">
+          <div class="status-text">Status: Reviewed</div>
+        </div> -->
+      </div>
+
+      <div class="message-input">
+        <input type="text" placeholder="Type Message Here...">
+        <button class="reply-button">Reply</button>
+      </div>
+
     </div>
   </div>
 </body>
